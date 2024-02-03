@@ -34,4 +34,3 @@ public class Servlet2 extends HttpServlet {
     }
 
 }
-
