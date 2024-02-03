@@ -18,7 +18,6 @@ public class Servlet1 extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
 
-        // send HTML page to client
         out.println("<html>");
         out.println("<head><title>Actividad 1. Servlets. Servlet 1</title></head>");
         out.println("<body>");
@@ -26,8 +25,8 @@ public class Servlet1 extends HttpServlet {
         out.println("<form action=\"/Servlet2\">");
         out.println("<label for=\"fname\">Nombre:</label><br>");
         out.println("<input type=\"text\" id=\"fname\" name=\"fname\" value=\"\"><br>");
-        out.println("<label for=\"lname\">Apellido 1:</label><br>");
-        out.println("<input type=\"text\" id=\"lname\" name=\"lname\" value=\"\"><br>");
+        out.println("<label for=\"lname1\">Apellido 1:</label><br>");
+        out.println("<input type=\"text\" id=\"lname1\" name=\"lname1\" value=\"\"><br>");
         out.println("<label for=\"lname2\">Apellido 2:</label><br>");
         out.println("<input type=\"text\" id=\"lname2\" name=\"lname2\" value=\"\"><br><br>");
         out.println("<input type=\"submit\" value=\"Enviar\">");

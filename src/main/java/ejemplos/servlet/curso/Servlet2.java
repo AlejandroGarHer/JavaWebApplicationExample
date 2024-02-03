@@ -18,7 +18,7 @@ public class Servlet2 extends HttpServlet {
         PrintWriter out = response.getWriter();
 
         String nombre = request.getParameter("fname");
-        String apellido1 = request.getParameter("lname");
+        String apellido1 = request.getParameter("lname1");
         String apellido2 = request.getParameter("lname2");
 
         out.println("<html>");
